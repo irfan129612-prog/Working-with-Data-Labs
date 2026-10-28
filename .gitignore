@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+# Sensitive and generated
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+.DS_Store
+# Models and generated artifacts
+*.h5
+*.pt
+*.pth
+*.joblib
